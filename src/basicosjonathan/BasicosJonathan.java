@@ -41,9 +41,14 @@ public class BasicosJonathan {
             System.out.println(b+"es mayor que "+a+x);//en este caso x ya es igual a false y por eso no pongo x=false;
         }
     }
+  public static void cadenas(){
+      String x="Hola soy un String";
+        System.out.println(x);
+  }
     public static void main(String[] args) {
         numericos();
         logicos();
+      cadenas();
     }
     
 }
